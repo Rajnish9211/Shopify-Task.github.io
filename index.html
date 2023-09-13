@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Build Your Custom Chocolate Pack</h1>
+    
+    <form id="chocolate-form">
+        <div class="chocolate-option">
+            <label for="chocolate1">Chocolate 1</label>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51A11QM92LL._AC_UL160_SR160,160_.jpg">
+            <input type="number" id="chocolate1" name="chocolates" min="0">
+        </div>
+
+        <div class="chocolate-option">
+            <label for="chocolate2">Chocolate 2</label>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51wQg3GGwwL._AC_UL232_SR232,232_.jpg">
+            <input type="number" id="chocolate2" name="chocolates" min="0">
+        </div>
+        <div class="chocolate-option">
+          <label for="chocolate1">Chocolate 3</label>
+          <img src="https://images-eu.ssl-images-amazon.com/images/I/51A11QM92LL._AC_UL160_SR160,160_.jpg">
+          <input type="number" id="chocolate1" name="chocolates" min="0">
+      </div>
+
+      <div class="chocolate-option">
+          <label for="chocolate2">Chocolate 4</label>
+          <img src="https://images-eu.ssl-images-amazon.com/images/I/51wQg3GGwwL._AC_UL232_SR232,232_.jpg">
+          <input type="number" id="chocolate2" name="chocolates" min="0">
+      </div>
+      <div class="chocolate-option">
+        <label for="chocolate1">Chocolate 5</label>
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51A11QM92LL._AC_UL160_SR160,160_.jpg">
+        <input type="number" id="chocolate1" name="chocolates" min="0">
+    </div>
+
+    <div class="chocolate-option">
+        <label for="chocolate2">Chocolate 6</label>
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51wQg3GGwwL._AC_UL232_SR232,232_.jpg">
+        <input type="number" id="chocolate2" name="chocolates" min="0">
+    </div>
+    
+        
+        <h2>Your Custom Pack</h2>
+        <ul id="custom-pack">
+            
+        </ul>
+
+        <h2>Total Price: $<span id="total-price">0.00</span></h2>
+
+        <button type="button" id="calculate-button">Calculate Total</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
